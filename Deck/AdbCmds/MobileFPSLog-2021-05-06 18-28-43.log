@@ -1,0 +1,253 @@
+--------- beginning of main
+--------- beginning of system
+05-06 18:28:43.259 26170 26212 D UE4     : [GameActivity] Used memory: 96243
+05-06 18:28:53.275 26170 26212 D UE4     : [GameActivity] Used memory: 96243
+05-06 18:29:03.327 26170 26212 D UE4     : [GameActivity] Used memory: 96243
+05-06 18:29:12.957 26170 26170 D UE4     : [GameActivity] onPause: stop memory reporter runnable
+05-06 18:29:12.957 26170 26170 D UE4     : [GameActivity] Unregistering sensor listeners
+05-06 18:29:12.988 26170 26209 D UE4     : Case APP_CMD_PAUSE
+05-06 18:29:12.988 26170 26209 D UE4     : [2021.05.06-10.29.12:988][501]LogAndroid: Case APP_CMD_PAUSE
+05-06 18:29:12.988 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 6, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_ON_PAUSE
+05-06 18:29:12.988 26170 26209 D UE4     : [2021.05.06-10.29.12:988][501]LogAndroid: event thread, suspending app, acquiring HW window lock.
+05-06 18:29:12.988 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 15, [width=-1, height=-1], tid = 26209, APP_EVENT_RUN_CALLBACK
+05-06 18:29:12.988 26170 26209 D UE4     : [2021.05.06-10.29.12:988][501]LogAndroid: AndroidEGL::  SuspendApp_EventThread, waiting for event manager to process. tid: 26209
+05-06 18:29:12.989 26170 26170 D UE4     : [GameActivity] ==============> GameActive.onPause complete!
+05-06 18:29:13.000 26170 26208 D UE4     : [2021.05.06-10.29.13:000][502]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 6, [width=-1, height=-1], APP_EVENT_STATE_ON_PAUSE
+05-06 18:29:13.000 26170 26208 D UE4     : FAppEventManager::Tick processing, 6
+05-06 18:29:13.000 26170 26208 D UE4     : [2021.05.06-10.29.13:000][502]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 15, [width=-1, height=-1], APP_EVENT_RUN_CALLBACK
+05-06 18:29:13.000 26170 26208 D UE4     : FAppEventManager::Tick processing, 15
+05-06 18:29:13.000 26170 26208 D UE4     : [2021.05.06-10.29.13:000][502]LogAndroidEvents: Display: Event thread callback running.
+05-06 18:29:13.000 26170 26208 D UE4     : [2021.05.06-10.29.13:000][502]LogAndroid: performing app backgrounding callback. 0xaf23a4d0
+05-06 18:29:13.000 26170 26208 D UE4     : [2021.05.06-10.29.13:000][502]LogCore: Display: AppLifetime: Application will deactivate
+05-06 18:29:13.001 26170 26208 D UE4     : [GameActivity] Unregistering volume receiver
+05-06 18:29:13.001 26170 26208 D UE4     : [GameActivity] Unregistering battery receiver
+05-06 18:29:13.002 26170 26208 D UE4     : [GameActivity] Unregistering headset receiver
+05-06 18:29:13.002 26170 26208 D UE4     : [2021.05.06-10.29.13:002][502]LogCore: Display: AppLifetime: Application will enter background
+05-06 18:29:13.003 26170 26208 D UE4     : [2021.05.06-10.29.13:002][502]LogTemp: Android pause audio
+05-06 18:29:13.003 26170 26208 D UE4     : [2021.05.06-10.29.13:003][502]LogAudioMixerAndroid: Display: Suspending android audio renderer
+05-06 18:29:13.004 26170 26208 D UE4     : [2021.05.06-10.29.13:004][502]LogTemp: Android release microphone
+05-06 18:29:13.004 26170 26209 D UE4     : [2021.05.06-10.29.13:004][502]LogAndroid: Blocking renderer on invalid window.
+05-06 18:29:13.004 26170 26209 D UE4     : [2021.05.06-10.29.13:004][502]LogAndroid: Waiting for renderer to encounter blocking command.
+05-06 18:29:13.217 26170 26282 D UE4     : [2021.05.06-10.29.13:217][503]LogAndroid: Blocking renderer
+05-06 18:29:13.228 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 13, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_APP_SUSPENDED
+05-06 18:29:13.228 26170 26209 D UE4     : Case APP_CMD_TERM_WINDOW, tid = 26209
+05-06 18:29:13.228 26170 26209 D UE4     : [2021.05.06-10.29.13:228][504]LogAndroid: Case APP_CMD_TERM_WINDOW
+05-06 18:29:13.228 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 3, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_WINDOW_DESTROYED
+05-06 18:29:13.235 26170 26209 D UE4     : [2021.05.06-10.29.13:235][504]LogAndroid: Case APP_CMD_STOP
+05-06 18:29:13.235 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 8, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_ON_STOP
+05-06 18:29:13.235 26170 26170 D UE4     : [GameActivity] ==============> GameActive.onStop complete!
+05-06 18:29:13.236 26170 26209 D UE4     : [2021.05.06-10.29.13:236][504]LogAndroid: Case APP_CMD_SAVE_STATE
+05-06 18:29:13.236 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 12, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_SAVE_STATE
+05-06 18:29:13.243 26170 26170 D UE4     : [GameActivity] ==============> GameActive.onTrimMemory(TRIM_MEMORY_UI_HIDDEN) called!
+05-06 18:29:13.330 26170 26209 D UE4     : [2021.05.06-10.29.13:330][504]LogAndroid: Case APP_CMD_LOST_FOCUS
+05-06 18:29:13.330 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 10, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_WINDOW_LOST_FOCUS
+05-06 18:29:13.725 26170 26170 V UE4     : [GameApp] App in background
+05-06 18:29:13.727 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars due to Visibility Change ===
+05-06 18:29:13.727 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars ===
+05-06 18:31:35.474 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 18:31:35.476 26170 26192 V UE4     : [NetworkChangedManager] Network connectivity changed. New connectivity state: NO_CONNECTION
+05-06 18:31:35.476 26170 26192 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
+05-06 18:31:35.512 26170 26192 V UE4     : [NetworkChangedManager] Network Lost callback: 278
+05-06 18:31:35.512 26170 26192 V UE4     : [NetworkChangedManager] All Networks Lost
+05-06 18:31:35.513 26170 26192 V UE4     : [NetworkChangedManager] Connectivity hasn't changed. Current state: NO_CONNECTION
+05-06 18:31:35.513 26170 26192 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
+05-06 18:31:35.581 26170 26192 V UE4     : [NetworkChangedManager] Network Available: 262
+05-06 18:31:35.585 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 18:31:36.538 26170 26192 V UE4     : [NetworkChangedManager] Network Available: 279
+05-06 18:31:36.539 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 18:31:37.288 26170 26368 V UE4     : [NetworkChangedManager] Network connectivity changed. New connectivity state: CONNECTION_AVAILABLE
+05-06 18:31:37.288 26170 26368 V UE4     : [NetworkChangedManager] Full network check complete. State: CONNECTION_AVAILABLE
+05-06 18:32:06.457 26170 26192 V UE4     : [NetworkChangedManager] Network Lost callback: 262
+05-06 18:32:06.458 26170 26192 V UE4     : [NetworkChangedManager] Not All Networks Lost
+05-06 18:32:07.301 26170 26577 V UE4     : [NetworkChangedManager] Connectivity hasn't changed. Current state: CONNECTION_AVAILABLE
+05-06 18:32:07.302 26170 26577 V UE4     : [NetworkChangedManager] Full network check complete. State: CONNECTION_AVAILABLE
+05-06 19:25:54.257 26170 26192 V UE4     : [NetworkChangedManager] Network Lost callback: 279
+05-06 19:25:54.257 26170 26192 V UE4     : [NetworkChangedManager] All Networks Lost
+05-06 19:25:54.257 26170 26192 V UE4     : [NetworkChangedManager] Network connectivity changed. New connectivity state: NO_CONNECTION
+05-06 19:25:54.257 26170 26192 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
+05-06 19:25:54.367 26170 26192 V UE4     : [NetworkChangedManager] Network Available: 262
+05-06 19:25:54.371 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 19:25:54.817 26170 26192 V UE4     : [NetworkChangedManager] Network Available: 280
+05-06 19:25:54.818 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 19:25:56.065 26170  3813 V UE4     : [NetworkChangedManager] Network connectivity changed. New connectivity state: CONNECTION_AVAILABLE
+05-06 19:25:56.065 26170  3813 V UE4     : [NetworkChangedManager] Full network check complete. State: CONNECTION_AVAILABLE
+05-06 19:26:24.697 26170 26192 V UE4     : [NetworkChangedManager] Network Lost callback: 262
+05-06 19:26:24.697 26170 26192 V UE4     : [NetworkChangedManager] Not All Networks Lost
+05-06 19:26:25.463 26170  4173 V UE4     : [NetworkChangedManager] Connectivity hasn't changed. Current state: CONNECTION_AVAILABLE
+05-06 19:26:25.463 26170  4173 V UE4     : [NetworkChangedManager] Full network check complete. State: CONNECTION_AVAILABLE
+05-06 19:33:02.513 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 19:33:03.396 26170 26209 D UE4     : [2021.05.06-11.33.03:396][504]LogAndroid: Case APP_CMD_START
+05-06 19:33:03.396 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 9, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_ON_START
+05-06 19:33:03.396 26170 26170 D UE4     : [GameActivity] Creating console command broadcast listener
+05-06 19:33:03.418 26170 26170 D UE4     : [GameActivity] ==================================> Inside onStart function in GameActivity
+05-06 19:33:03.418 26170 26170 V UE4     : [GameApp] App in foreground
+05-06 19:33:03.420 26170 26209 D UE4     : Case APP_CMD_RESUME
+05-06 19:33:03.420 26170 26209 D UE4     : [2021.05.06-11.33.03:420][504]LogAndroid: Case APP_CMD_RESUME
+05-06 19:33:03.420 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 7, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_ON_RESUME
+05-06 19:33:03.421 26170 26170 D UE4     : [GameActivity] onResume: start memory reporter runnable
+05-06 19:33:03.422 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars ===
+05-06 19:33:03.422 26170 26170 D UE4     : [GameActivity] ==============> [JAVA] AndroidThunkJava_KeepScreenOn(false) - Enabled screen saver
+05-06 19:33:03.422 26170 26170 D UE4     : [GameActivity] Registering sensor listeners
+05-06 19:33:03.455 26170 26170 D UE4     : App is running in Landscape
+05-06 19:33:03.455 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars ===
+05-06 19:33:03.455 26170 26170 D UE4     : [GameActivity] ==============> Resuming main init
+05-06 19:33:03.456 26170 26170 D UE4     : [GameActivity] ==============> GameActive.onResume complete!
+05-06 19:33:03.474 26170 26209 D UE4     : Case APP_CMD_INIT_WINDOW
+05-06 19:33:03.474 26170 26209 D UE4     : [2021.05.06-11.33.03:474][504]LogAndroid: Case APP_CMD_INIT_WINDOW
+05-06 19:33:03.474 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 0, [width=2159, height=1080], tid = 26209, APP_EVENT_STATE_WINDOW_CREATED
+05-06 19:33:03.540 26170 26209 D UE4     : [2021.05.06-11.33.03:540][504]LogAndroid: Case APP_CMD_GAINED_FOCUS
+05-06 19:33:03.540 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 11, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_WINDOW_GAINED_FOCUS
+05-06 19:33:03.540 26170 26209 D UE4     : [2021.05.06-11.33.03:540][504]LogAndroid: event thread, activate app, unlocking HW window
+05-06 19:33:03.541 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 14, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_APP_ACTIVATED
+05-06 19:33:03.541 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 15, [width=-1, height=-1], tid = 26209, APP_EVENT_RUN_CALLBACK
+05-06 19:33:03.541 26170 26264 D UE4     : [2021.05.06-11.33.03:541][504]LogAndroid: RendererBlock acquired window lock
+05-06 19:33:03.541 26170 26264 D UE4     : AndroidEGL::SetRenderContextWindowSurface  recreating context! tid: 26264
+05-06 19:33:03.541 26170 26264 D UE4     : AndroidEGL::UnBind()
+05-06 19:33:03.541 26170 26264 D UE4     : AndroidEGL::ResetDisplay()
+05-06 19:33:03.541 26170 26264 D UE4     : AndroidEGL::DestroySurface()
+05-06 19:33:03.542 26170 26264 D UE4     : AndroidEGL::InitSurface 0, 1
+05-06 19:33:03.542 26170 26264 D UE4     : [2021.05.06-11.33.03:542][504]LogAndroid: Mobile HDR: YES
+05-06 19:33:03.542 26170 26264 D UE4     : [2021.05.06-11.33.03:542][504]LogAndroidWindowUtils: Setting Width=1432 and Height=720 (requested scale = 1.000000)
+05-06 19:33:03.542 26170 26264 D UE4     : AndroidEGL::InitSurface, Using CachedWindowRect, width: 1432, height 720 
+05-06 19:33:03.542 26170 26264 D UE4     : AndroidEGL::InitSurface, Using width: 1432, height 720 
+05-06 19:33:03.542 26170 26264 D UE4     : AndroidEGL::InitSurface, wnd: 0xb2efd808, width: 1432, height 720 
+05-06 19:33:03.543 26170 26264 D UE4     : AndroidEGL::CreateEGLSurface() 0xc2d65cc0
+05-06 19:33:03.543 26170 26264 D UE4     : AndroidEGL::CreateEGLSurface(1), auxSurface = eglCreatePbufferSurface(), 1432x720
+05-06 19:33:03.543 26170 26264 D UE4     : AndroidEGL::SetRenderContextWindowSurface  DONE! tid: 26264
+05-06 19:33:03.543 26170 26264 D UE4     : [2021.05.06-11.33.03:543][504]LogAndroid: RendererBlock updating window
+05-06 19:33:03.543 26170 26282 D UE4     : [2021.05.06-11.33.03:543][504]LogAndroid: RendererBlock released window lock
+05-06 19:33:03.547 26170 26208 D UE4     : [2021.05.06-11.33.03:547][504]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 13, [width=-1, height=-1], APP_EVENT_STATE_APP_SUSPENDED
+05-06 19:33:03.547 26170 26208 D UE4     : FAppEventManager::Tick processing, 13
+05-06 19:33:03.547 26170 26208 D UE4     : Execution will be paused...
+05-06 19:33:03.547 26170 26208 D UE4     : [2021.05.06-11.33.03:547][504]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 3, [width=-1, height=-1], APP_EVENT_STATE_WINDOW_DESTROYED
+05-06 19:33:03.547 26170 26208 D UE4     : FAppEventManager::Tick processing, 3
+05-06 19:33:03.547 26170 26208 D UE4     : APP_EVENT_STATE_WINDOW_DESTROYED, 0, 0, 0
+05-06 19:33:03.547 26170 26208 D UE4     : [2021.05.06-11.33.03:547][504]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 8, [width=-1, height=-1], APP_EVENT_STATE_ON_STOP
+05-06 19:33:03.547 26170 26208 D UE4     : FAppEventManager::Tick processing, 8
+05-06 19:33:03.547 26170 26208 D UE4     : [2021.05.06-11.33.03:547][504]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 12, [width=-1, height=-1], APP_EVENT_STATE_SAVE_STATE
+05-06 19:33:03.547 26170 26208 D UE4     : FAppEventManager::Tick processing, 12
+05-06 19:33:03.547 26170 26208 D UE4     : [2021.05.06-11.33.03:547][504]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 10, [width=-1, height=-1], APP_EVENT_STATE_WINDOW_LOST_FOCUS
+05-06 19:33:03.547 26170 26208 D UE4     : FAppEventManager::Tick processing, 10
+05-06 19:33:03.547 26170 26208 D UE4     : [2021.05.06-11.33.03:547][504]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 9, [width=-1, height=-1], APP_EVENT_STATE_ON_START
+05-06 19:33:03.547 26170 26208 D UE4     : FAppEventManager::Tick processing, 9
+05-06 19:33:03.548 26170 26208 D UE4     : [2021.05.06-11.33.03:548][504]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 7, [width=-1, height=-1], APP_EVENT_STATE_ON_RESUME
+05-06 19:33:03.548 26170 26208 D UE4     : FAppEventManager::Tick processing, 7
+05-06 19:33:03.548 26170 26208 D UE4     : [2021.05.06-11.33.03:548][504]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 0, [width=2159, height=1080], APP_EVENT_STATE_WINDOW_CREATED
+05-06 19:33:03.548 26170 26208 D UE4     : FAppEventManager::Tick processing, 0
+05-06 19:33:03.548 26170 26208 D UE4     : [2021.05.06-11.33.03:548][504]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 11, [width=-1, height=-1], APP_EVENT_STATE_WINDOW_GAINED_FOCUS
+05-06 19:33:03.548 26170 26208 D UE4     : FAppEventManager::Tick processing, 11
+05-06 19:33:03.548 26170 26208 D UE4     : [2021.05.06-11.33.03:548][504]LogAndroidEvents: Display: ExecWindowCreated
+05-06 19:33:03.548 26170 26208 D UE4     : AndroidEGL::ReInitWindow()
+05-06 19:33:03.548 26170 26208 D UE4     : [2021.05.06-11.33.03:548][504]LogAndroid: AndroidEGL::RefreshWindowSize updating window size = 1432, 720, cached size : 1432, 720 tid : 26208
+05-06 19:33:03.548 26170 26208 D UE4     : ExecWindowCreated, 0, 1, 1
+05-06 19:33:03.548 26170 26208 D UE4     : [2021.05.06-11.33.03:548][504]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 14, [width=-1, height=-1], APP_EVENT_STATE_APP_ACTIVATED
+05-06 19:33:03.548 26170 26208 D UE4     : FAppEventManager::Tick processing, 14
+05-06 19:33:03.548 26170 26208 D UE4     : Execution will be resumed!
+05-06 19:33:03.548 26170 26208 D UE4     : [2021.05.06-11.33.03:548][504]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 15, [width=-1, height=-1], APP_EVENT_RUN_CALLBACK
+05-06 19:33:03.548 26170 26208 D UE4     : FAppEventManager::Tick processing, 15
+05-06 19:33:03.548 26170 26208 D UE4     : [2021.05.06-11.33.03:548][504]LogAndroidEvents: Display: Event thread callback running.
+05-06 19:33:03.548 26170 26208 D UE4     : [2021.05.06-11.33.03:548][504]LogAndroid: performing app foregrounding callback.
+05-06 19:33:03.548 26170 26208 D UE4     : [GameActivity] Registering volume receiver
+05-06 19:33:03.562 26170 26208 D UE4     : [GameActivity] startVolumeReceiver: 9
+05-06 19:33:03.562 26170 26208 D UE4     : nativeVolumeEvent(9)
+05-06 19:33:03.562 26170 26208 D UE4     : [GameActivity] Registering battery receiver
+05-06 19:33:03.565 26170 26208 D UE4     : [GameActivity] Registering headset receiver
+05-06 19:33:03.567 26170 26208 D UE4     : [GameActivity] startHeadsetReceiver: 0
+05-06 19:33:03.567 26170 26208 D UE4     : nativeHeadsetEvent(0)
+05-06 19:33:03.567 26170 26208 D UE4     : [2021.05.06-11.33.03:567][504]LogCore: Display: AppLifetime: Application has entered foreground
+05-06 19:33:03.567 26170 26208 D UE4     : [2021.05.06-11.33.03:567][504]LogCore: Display: AppLifetime: Application has reactivated
+05-06 19:33:03.567 26170 26208 D UE4     : [2021.05.06-11.33.03:567][504]LogTemp: Android resume audio
+05-06 19:33:03.567 26170 26208 D UE4     : [2021.05.06-11.33.03:567][504]LogAudioMixerAndroid: Display: Resuming android audio renderer
+05-06 19:33:03.568 26170 26170 D UE4     : [GameActivity] Battery: status = 2, rawlevel = 85, scale = 100
+05-06 19:33:03.568 26170 26170 D UE4     : nativeBatteryEvent(stat = 2, lvl = 85  temp = 28.00 °C)
+05-06 19:33:03.872 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars due to Visibility Change ===
+05-06 19:33:03.872 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars ===
+05-06 19:33:04.515 26170 26170 V UE4     : [NetworkChangedManager] Unable to connect to: https://example.com/
+05-06 19:33:04.515 26170 26170 V UE4     : [NetworkChangedManager] Network connectivity changed. New connectivity state: NO_CONNECTION
+05-06 19:33:04.515 26170 26170 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
+05-06 19:33:04.515 26170 26170 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
+05-06 19:33:04.531 26170  4303 V UE4     : [NetworkChangedManager] Unable to connect to: https://example.com/
+05-06 19:33:04.531 26170  4303 V UE4     : [NetworkChangedManager] Connectivity hasn't changed. Current state: NO_CONNECTION
+05-06 19:33:04.531 26170  4303 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
+05-06 19:33:04.531 26170  4303 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
+05-06 19:33:04.531 26170  4303 V UE4     : [NetworkChangedManager] Full network check complete. State: NO_CONNECTION
+05-06 19:33:04.557 26170 26212 D UE4     : [GameActivity] Used memory: 377357
+05-06 19:33:04.632 26170 26209 D UE4     : [2021.05.06-11.33.04:632][563]LogAndroid: Mobile HDR: YES
+05-06 19:33:04.632 26170 26209 D UE4     : [2021.05.06-11.33.04:632][563]LogAndroidWindowUtils: Setting Width=1432 and Height=720 (requested scale = 1.000000)
+05-06 19:33:05.216 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 19:33:05.217 26170 26192 V UE4     : [NetworkChangedManager] Connectivity hasn't changed. Current state: NO_CONNECTION
+05-06 19:33:05.217 26170 26192 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
+05-06 19:33:05.282 26170 26192 V UE4     : [NetworkChangedManager] Network Lost callback: 280
+05-06 19:33:05.282 26170 26192 V UE4     : [NetworkChangedManager] All Networks Lost
+05-06 19:33:05.282 26170 26192 V UE4     : [NetworkChangedManager] Connectivity hasn't changed. Current state: NO_CONNECTION
+05-06 19:33:05.282 26170 26192 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
+05-06 19:33:05.426 26170 26192 V UE4     : [NetworkChangedManager] Network Available: 262
+05-06 19:33:05.441 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 19:33:05.786 26170 26170 D UE4     : [GameActivity] onPause: stop memory reporter runnable
+05-06 19:33:05.786 26170 26170 D UE4     : [GameActivity] Unregistering sensor listeners
+05-06 19:33:05.813 26170 26209 D UE4     : Case APP_CMD_PAUSE
+05-06 19:33:05.813 26170 26170 D UE4     : [GameActivity] ==============> GameActive.onPause complete!
+05-06 19:33:05.814 26170 26209 D UE4     : [2021.05.06-11.33.05:813][634]LogAndroid: Case APP_CMD_PAUSE
+05-06 19:33:05.814 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 6, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_ON_PAUSE
+05-06 19:33:05.814 26170 26209 D UE4     : [2021.05.06-11.33.05:814][634]LogAndroid: event thread, suspending app, acquiring HW window lock.
+05-06 19:33:05.814 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 15, [width=-1, height=-1], tid = 26209, APP_EVENT_RUN_CALLBACK
+05-06 19:33:05.814 26170 26209 D UE4     : [2021.05.06-11.33.05:814][634]LogAndroid: AndroidEGL::  SuspendApp_EventThread, waiting for event manager to process. tid: 26209
+05-06 19:33:05.827 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars due to Visibility Change ===
+05-06 19:33:05.827 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars ===
+05-06 19:33:05.833 26170 26208 D UE4     : [2021.05.06-11.33.05:833][635]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 6, [width=-1, height=-1], APP_EVENT_STATE_ON_PAUSE
+05-06 19:33:05.833 26170 26208 D UE4     : FAppEventManager::Tick processing, 6
+05-06 19:33:05.833 26170 26208 D UE4     : [2021.05.06-11.33.05:833][635]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 15, [width=-1, height=-1], APP_EVENT_RUN_CALLBACK
+05-06 19:33:05.833 26170 26208 D UE4     : FAppEventManager::Tick processing, 15
+05-06 19:33:05.833 26170 26208 D UE4     : [2021.05.06-11.33.05:833][635]LogAndroidEvents: Display: Event thread callback running.
+05-06 19:33:05.833 26170 26208 D UE4     : [2021.05.06-11.33.05:833][635]LogAndroid: performing app backgrounding callback. 0xb4145cb0
+05-06 19:33:05.833 26170 26208 D UE4     : [2021.05.06-11.33.05:833][635]LogCore: Display: AppLifetime: Application will deactivate
+05-06 19:33:05.833 26170 26208 D UE4     : [GameActivity] Unregistering volume receiver
+05-06 19:33:05.889 26170 26170 D UE4     : [2021.05.06-11.33.05:889][635]LogAndroid: Window orientation changed: Portrait
+05-06 19:33:05.889 26170 26170 D UE4     : LogAndroidEvents::EnqueueAppEvent : 2, [width=-1, height=-1], tid = 26170, APP_EVENT_STATE_WINDOW_CHANGED
+05-06 19:33:05.907 26170 26208 D UE4     : [GameActivity] Unregistering battery receiver
+05-06 19:33:05.908 26170 26208 D UE4     : [GameActivity] Unregistering headset receiver
+05-06 19:33:05.918 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars due to Visibility Change ===
+05-06 19:33:05.918 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars ===
+05-06 19:33:05.924 26170 26208 D UE4     : [2021.05.06-11.33.05:924][635]LogCore: Display: AppLifetime: Application will enter background
+05-06 19:33:05.924 26170 26208 D UE4     : [2021.05.06-11.33.05:924][635]LogTemp: Android pause audio
+05-06 19:33:05.925 26170 26208 D UE4     : [2021.05.06-11.33.05:924][635]LogAudioMixerAndroid: Display: Suspending android audio renderer
+05-06 19:33:05.927 26170 26209 D UE4     : [2021.05.06-11.33.05:927][635]LogAndroid: Blocking renderer on invalid window.
+05-06 19:33:05.927 26170 26209 D UE4     : [2021.05.06-11.33.05:927][635]LogAndroid: Waiting for renderer to encounter blocking command.
+05-06 19:33:05.927 26170 26208 D UE4     : [2021.05.06-11.33.05:927][635]LogAndroidEvents: Display: LogAndroidEvents::DequeueAppEvent : 2, [width=-1, height=-1], APP_EVENT_STATE_WINDOW_CHANGED
+05-06 19:33:05.928 26170 26208 D UE4     : FAppEventManager::Tick processing, 2
+05-06 19:33:05.928 26170 26282 D UE4     : [2021.05.06-11.33.05:928][635]LogAndroid: Blocking renderer
+05-06 19:33:05.928 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 13, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_APP_SUSPENDED
+05-06 19:33:05.944 26170 26209 D UE4     : Case APP_CMD_TERM_WINDOW, tid = 26209
+05-06 19:33:05.944 26170 26209 D UE4     : [2021.05.06-11.33.05:944][635]LogAndroid: Case APP_CMD_TERM_WINDOW
+05-06 19:33:05.944 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 3, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_WINDOW_DESTROYED
+05-06 19:33:05.996 26170 26209 D UE4     : [2021.05.06-11.33.05:996][635]LogAndroid: Case APP_CMD_LOST_FOCUS
+05-06 19:33:05.996 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 10, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_WINDOW_LOST_FOCUS
+05-06 19:33:06.023 26170 26209 D UE4     : [2021.05.06-11.33.06:023][635]LogAndroid: Case APP_CMD_STOP
+05-06 19:33:06.023 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 8, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_ON_STOP
+05-06 19:33:06.023 26170 26170 D UE4     : [GameActivity] ==============> GameActive.onStop complete!
+05-06 19:33:06.024 26170 26209 D UE4     : [2021.05.06-11.33.06:024][635]LogAndroid: Case APP_CMD_SAVE_STATE
+05-06 19:33:06.024 26170 26209 D UE4     : LogAndroidEvents::EnqueueAppEvent : 12, [width=-1, height=-1], tid = 26209, APP_EVENT_STATE_SAVE_STATE
+05-06 19:33:06.035 26170 26170 D UE4     : [GameActivity] ==============> GameActive.onTrimMemory(TRIM_MEMORY_UI_HIDDEN) called!
+05-06 19:33:06.190 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars due to Visibility Change ===
+05-06 19:33:06.190 26170 26170 D UE4     : [GameActivity] === Restoring Transparent Bars ===
+05-06 19:33:06.357 26170 26192 V UE4     : [NetworkChangedManager] Network Available: 281
+05-06 19:33:06.357 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 19:33:06.545 26170 26170 V UE4     : [GameApp] App in background
+05-06 19:33:07.216 26170  4542 V UE4     : [NetworkChangedManager] Network connectivity changed. New connectivity state: CONNECTION_AVAILABLE
+05-06 19:33:07.216 26170  4542 V UE4     : [NetworkChangedManager] Full network check complete. State: CONNECTION_AVAILABLE
+05-06 19:33:09.129 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 19:33:09.895 26170  4791 V UE4     : [NetworkChangedManager] Connectivity hasn't changed. Current state: CONNECTION_AVAILABLE
+05-06 19:33:09.895 26170  4791 V UE4     : [NetworkChangedManager] Full network check complete. State: CONNECTION_AVAILABLE
+05-06 19:33:36.242 26170 26192 V UE4     : [NetworkChangedManager] Network Lost callback: 262
+05-06 19:33:36.242 26170 26192 V UE4     : [NetworkChangedManager] Not All Networks Lost
+05-06 19:33:36.431 26170  4919 V UE4     : [NetworkChangedManager] Connectivity hasn't changed. Current state: CONNECTION_AVAILABLE
+05-06 19:33:36.431 26170  4919 V UE4     : [NetworkChangedManager] Full network check complete. State: CONNECTION_AVAILABLE
+05-06 19:40:04.227 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 19:40:04.229 26170 26192 V UE4     : [NetworkChangedManager] Network connectivity changed. New connectivity state: NO_CONNECTION
+05-06 19:40:04.229 26170 26192 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
+05-06 19:46:53.776 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 19:46:53.776 26170 26192 V UE4     : [NetworkChangedManager] Connectivity hasn't changed. Current state: NO_CONNECTION
+05-06 19:46:53.776 26170 26192 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
+05-06 19:56:33.745 26170 26192 V UE4     : [NetworkChangedManager] Network Capabilities changed, has Internet: true
+05-06 19:56:33.746 26170 26192 V UE4     : [NetworkChangedManager] Connectivity hasn't changed. Current state: NO_CONNECTION
+05-06 19:56:33.746 26170 26192 V UE4     : [NetworkChangedManager] No listeners so not retrying. When a listener is added the connection will be checked.
